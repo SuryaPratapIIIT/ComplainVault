@@ -196,7 +196,7 @@ export default function SimpleRoleSelector() {
           disabled={isSubmitting}
           className="continue-button px-12 py-4 text-white font-bold text-lg rounded-2xl transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {isSubmitting ? 'Setting Role...' : Continue as ${ROLE_LABELS[selectedRole]} >}
+          {isSubmitting ? 'Setting Role...' : `${ROLE_LABELS[selectedRole]}`}
         </button>
       </form>
     </div>
