@@ -17,6 +17,7 @@
     "@google/generative-ai": "^0.24.1",
     "@reduxjs/toolkit": "^2.9.0",
     "@splinetool/react-spline": "^1.0.0",
+    "axios": "^1.13.6",
     "ethers": "^6.15.0",
     "framer-motion": "^12.23.22",
     "ipfs-http-client": "^60.0.1",
@@ -46,7 +47,7 @@
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
-    "hardhat": "^3.0.4",
+    "hardhat": "^2.26.0",
     "tailwindcss": "^4"
   }
 }
